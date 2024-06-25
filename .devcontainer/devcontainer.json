@@ -1,5 +1,5 @@
 {
-	"name": "dylanlangston",
+	"name": "cf-dlangston",
 	"build": { 
 		"dockerfile": "devcontainer.Dockerfile",
 		"target": "base",

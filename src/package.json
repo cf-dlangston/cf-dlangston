@@ -1,6 +1,6 @@
 {
-  "name": "dylanlangston",
-  "version": "2.0.59",
+  "name": "cf-dlangston",
+  "version": "3.0.0",
   "description": "Dylan Langston's Github Profile Readme",
   "type": "module",
   "scripts": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dylanlangston/dylanlangston.git"
+    "url": "git+https://github.com/cf-dlangston/cf-dlangston.git"
   },
   "author": "dylanlangston",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dylanlangston/dylanlangston/issues"
+    "url": "https://github.com/cf-dlangston/cf-dlangston/issues"
   },
-  "homepage": "https://github.com/dylanlangston/dylanlangston#readme",
+  "homepage": "https://github.com/cf-dlangston/cf-dlangston#readme",
   "dependencies": {
     "@svgdotjs/svg.js": "^3.2.0",
     "@xmldom/xmldom": "^0.8.10",

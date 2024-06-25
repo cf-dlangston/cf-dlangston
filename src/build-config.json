@@ -61,7 +61,7 @@
         "jetbrains": "jetbrains_mono.woff2"
       },
       "github": {
-        "username": "dylanlangston"
+        "username": "cf-dlangston"
       },
       "keys": {
         "repos": "Repos Owned",
@@ -86,7 +86,7 @@
       "image": "dylan-light.svg",
       "imageDark": "dylan-dark.svg",
       "imageAlt": "Dylan",
-      "imageLink": "https://github.com/dylanlangston/dylanlangston/tree/master/src",
+      "imageLink": "https://github.com/cf-dlangston/cf-dlangston/tree/master/src",
       "statsImage": "stats-light.svg",
       "statsImageDark": "stats-dark.svg",
       "statsImageAlt": "Profile Info and Stats"
