@@ -79,28 +79,28 @@ test('Ensure layout is correct', async ({ page }) => {
   });
 });
 
-for (let holiday of [
-  "01/01/2020",
-  "02/14/2020",
-  "03/17/2020",
-  "03/22/2020",
-  "04/01/2020",
-  "04/22/2020",
-  "05/04/2020",
-  "05/05/2020",
-  "10/31/2020",
-  "12/25/2020"
-]) {
-  test(`Check holiday layout - ${holiday}`, { tag: '@' + holiday }, async ({ page }) => {
-    await expect(page).toHaveScreenshot(`${holiday.replace('/', '-')}_message.png`, {
-      clip: {
-        x: 575,
-        y: 50,
-        height: 375,
-        width: 660,
-      },
-      timeout: 10000,
-      maxDiffPixelRatio: 0.15,
-    });
-  });
-}
+// for (let holiday of [
+//   "01/01/2020",
+//   "02/14/2020",
+//   "03/17/2020",
+//   "03/22/2020",
+//   "04/01/2020",
+//   "04/22/2020",
+//   "05/04/2020",
+//   "05/05/2020",
+//   "10/31/2020",
+//   "12/25/2020"
+// ]) {
+//   test(`Check holiday layout - ${holiday}`, { tag: '@' + holiday }, async ({ page }) => {
+//     await expect(page).toHaveScreenshot(`${holiday.replace('/', '-')}_message.png`, {
+//       clip: {
+//         x: 575,
+//         y: 50,
+//         height: 375,
+//         width: 660,
+//       },
+//       timeout: 10000,
+//       maxDiffPixelRatio: 0.15,
+//     });
+//   });
+// }

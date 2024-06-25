@@ -84,6 +84,10 @@ async function processTemplate(template: Template, templates: Template[], versio
 export async function build(templates: Template[], version: string, dateTime: Date, outputFolder: string = '', debug: boolean = false, con?: typeof console): Promise<Template[]> {
     registerHandlerbarHelpers(version, dateTime, debug);
 
+    if (!fs.existsSync(outDir())) {
+        fsPromises.mkdir(outDir());
+    }
+
     if (!fs.existsSync(outDir(outputFolder))) {
         fsPromises.mkdir(outDir(outputFolder));
     }
