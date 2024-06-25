@@ -52,3 +52,5 @@ Beard:
   import: './dylan/beard.svg.hbs.yaml'
 Speech Bubble:
   import: './dylan/speech-bubble.svg.hbs.yaml'
+Hello World:
+  import: './dylan/messages/hello-world.svg.hbs.yaml'

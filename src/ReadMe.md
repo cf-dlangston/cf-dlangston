@@ -8,9 +8,9 @@
 
 <p align="center">
   <a href="https://www.typescriptlang.org/"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=flat-square"></a>
-  <a href="https://github.com/dylanlangston/dylanlangston/actions/workflows/build.yml"><img alt="GitHub Workflow CI/CD" src="https://img.shields.io/github/actions/workflow/status/dylanlangston/dylanlangston/build.yml?label=CI%2FCD&style=flat-square"></a>
-  <a href="https://github.com/dylanlangston/dylanlangston/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/dylanlangston/dylanlangston?style=flat-square&label=License"></a>
-  <a href="https://api.github.com/repos/dylanlangston/dylanlangston"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/dylanlangston/dylanlangston?label=Repo%20Size&style=flat-square"></a>
+  <a href="https://github.com/cf-dlangston/cf-dlangston/actions/workflows/build.yml"><img alt="GitHub Workflow CI/CD" src="https://img.shields.io/github/actions/workflow/status/cf-dlangston/cf-dlangston/build.yml?label=CI%2FCD&style=flat-square"></a>
+  <a href="https://github.com/cf-dlangston/cf-dlangston/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/cf-dlangston/cf-dlangston?style=flat-square&label=License"></a>
+  <a href="https://api.github.com/repos/cf-dlangston/cf-dlangston"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/cf-dlangston/cf-dlangston?label=Repo%20Size&style=flat-square"></a>
 </p>
 
 ### A brief introduction 🎤
@@ -25,11 +25,11 @@ Hello and welcome! This repository contains the source code used to generate my 
 __Getting the Source Code__
 1. Clone the repository: 
     ```
-    git clone https://github.com/dylanlangston/dylanlangston.git
+    git clone https://github.com/cf-dlangston/cf-dlangston.git
     ```
 2. Navigate to the project's source directory:
     ```
-    cd dylanlangston/src
+    cd cf-dlangston/src
     ```
 
     </td>
@@ -96,17 +96,17 @@ __Preview__
   <tr>
     <td colspan="2">
       <p align="center">
-        <a href="https://codespaces.new/dylanlangston/dylanlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=Open+GitHub+Codespaces&color=lightgrey&logo=github" alt="Open in GitHub Codespaces"></a>
+        <a href="https://codespaces.new/cf-dlangston/cf-dlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=Open+GitHub+Codespaces&color=lightgrey&logo=github" alt="Open in GitHub Codespaces"></a>
       </p>
     </td>
     <td colspan="2">
       <p align="center">
-        <a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/dylanlangston/dylanlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=Open+Dev+Container&color=blue&logo=visualstudiocode" alt="Open Dev Container"></a>
+        <a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cf-dlangston/cf-dlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=Open+Dev+Container&color=blue&logo=visualstudiocode" alt="Open Dev Container"></a>
       </p>
     </td>
     <td colspan="2">
       <p align="center">
-        <a href="https://devpod.sh/open#https://github.com/dylanlangston/dylanlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=Open+DevPod&color=9933CC&logo=devdotto" alt="Open DevPod"></a>
+        <a href="https://devpod.sh/open#https://github.com/cf-dlangston/cf-dlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=Open+DevPod&color=9933CC&logo=devdotto" alt="Open DevPod"></a>
       </p>
     </td>
   </tr>
@@ -118,12 +118,12 @@ __Preview__
   <tr>
     <td colspan="3">
       <p align="center">
-        <a href="https://github.dev/dylanlangston/dylanlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=View+on+GitHub.dev&color=lightgrey&logo=github" alt="Edit on GitHub.dev"></a>
+        <a href="https://github.dev/cf-dlangston/cf-dlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=View+on+GitHub.dev&color=lightgrey&logo=github" alt="Edit on GitHub.dev"></a>
       </p>
     </td>
     <td colspan="3">
       <p align="center">
-        <a href="https://vscode.dev/github/dylanlangston/dylanlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=View+on+VSCode.dev&color=blue&logo=visualstudiocode" alt="Open in vscode.dev"></a>
+        <a href="https://vscode.dev/github/cf-dlangston/cf-dlangston"><img src="https://img.shields.io/static/v1?style=for-the-badge&label=&message=View+on+VSCode.dev&color=blue&logo=visualstudiocode" alt="Open in vscode.dev"></a>
       </p>
     </td>
   </tr>
@@ -279,7 +279,7 @@ Here are some additional resources which are used:
 </table>
 
 ### License 📜
-This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [`LICENSE`](https://github.com/dylanlangston/dylanlangston/blob/main/LICENSE) file for details.
+This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [`LICENSE`](https://github.com/cf-dlangston/cf-dlangston/blob/main/LICENSE) file for details.
 
 <h2 id="footer"></h2>
 <sub>

@@ -59,7 +59,7 @@ jobs:
         run: npm run build --prefix ./src
 
       - name: Copy build output
-        run: cp -r src/out/* .
+        run: cp src/out/*.* .
 
       - name: Commit Changes
         run: |
@@ -71,16 +71,16 @@ jobs:
           git commit -m "Update README" || echo "No changes to commit"
           git push
 
-      - name: Upload GitGub Pages artifact
-        uses: actions/upload-pages-artifact@main
-        with:
-          path: src/dist
+  #     - name: Upload GitGub Pages artifact
+  #       uses: actions/upload-pages-artifact@main
+  #       with:
+  #         path: src/dist
       
-  deployGithubPages:
-    if: ${{ success() || needs.Build.result == 'success' }}
-    uses: dylanlangston/dylanlangston/.github/workflows/deploy-github-pages.yml@master
-    needs: update-readme
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
+  # deployGithubPages:
+  #   if: ${{ success() || needs.Build.result == 'success' }}
+  #   uses: cf-dlangston/cf-dlangston/.github/workflows/deploy-github-pages.yml@master
+  #   needs: update-readme
+  #   permissions:
+  #     contents: read
+  #     pages: write
+  #     id-token: write

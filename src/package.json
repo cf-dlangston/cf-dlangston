@@ -1,26 +1,26 @@
 {
-  "name": "dylanlangston",
-  "version": "2.0.63",
+  "name": "cf-dlangston",
+  "version": "3.0.0",
   "description": "Dylan Langston's Github Profile Readme",
   "type": "module",
   "scripts": {
     "build": "tsx build.ts",
     "preview": "tsx preview.ts",
     "test": "npm run test:unit && npm run test:integration",
-    "test:unit": "jest",
+    "test:unit": "BUILD_TIME=01/02/2024 jest",
     "test:integration": "playwright test",
     "update-snapshots": "playwright test --update-snapshots"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dylanlangston/dylanlangston.git"
+    "url": "git+https://github.com/cf-dlangston/cf-dlangston.git"
   },
   "author": "dylanlangston",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dylanlangston/dylanlangston/issues"
+    "url": "https://github.com/cf-dlangston/cf-dlangston/issues"
   },
-  "homepage": "https://github.com/dylanlangston/dylanlangston#readme",
+  "homepage": "https://github.com/cf-dlangston/cf-dlangston#readme",
   "dependencies": {
     "@svgdotjs/svg.js": "^3.2.0",
     "@xmldom/xmldom": "^0.8.10",
