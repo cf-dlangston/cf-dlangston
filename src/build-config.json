@@ -5,8 +5,8 @@
     "type": "SVG",
     "data": {
       "files": {
-        "bliss": "bliss.webp",
-        "solo": "solo.webp"
+        "office": "White Office Space.webp",
+        "dots": "Colorful Dots.webp"
       },
       "width": 1600,
       "height": 800,
@@ -14,8 +14,8 @@
       "hair2": "#8B4513",
       "mustache": "#a0782d",
       "beard": "#97601F",
-      "shirt": "white",
-      "collar": "#696969",
+      "shirt": "black",
+      "collar": "white",
       "skin1": "#ffefd5",
       "skin2": "#ffebcc",
       "skin3": "#ffe1b3",

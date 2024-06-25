@@ -220,29 +220,6 @@ graph LR;
     ENV -.->|reads| B 
 ```
 
-### Citations 📓
-In this project, we utilize images under fair use to create derivative artwork. These images are sourced from publicly available resources and are used for the purpose of creating transformative artworks.
-<table>
-  <tr>
-    <td><img src="./static/bliss.webp" alt="Bliss (Windows XP)" width="200em"></td>
-    <td>
-      <p><em>Bliss (Windows XP)</em></p>
-      <p>Original scan of Charles O'Rear's photograph</p>
-      <p>Source: <a href="https://en.wikipedia.org/wiki/File:Bliss_(Windows_XP).png">Wikipedia</a></p>
-      <p>License: Used with permission from Microsoft</p>
-    </td>
-  </tr>
-  <tr>
-    <td><img src="./static/solo.webp" alt="Solo Jazz design" width="200em"></td>
-    <td>
-      <p><em>Solo Jazz design</em></p>
-      <p>The Solo Jazz design by Gina Ekiss represented in a high-quality clean image.</p>
-      <p>Source: <a href="https://en.wikipedia.org/wiki/File:Solo_Jazz_design.jpg">Wikipedia</a></p>
-      <p>License: Solo Cup Company/Dart Container</p>
-    </td>
-  </tr>
-</table>
-
 ### Special Thanks 🙏
 Shout out to [Andrew6rant](https://github.com/Andrew6rant/Andrew6rant)'s fantastic github profile for inspiration and the css used for the [`templates/stats.svg.hbs.yaml`](templates/stats.svg.hbs.yaml).
 

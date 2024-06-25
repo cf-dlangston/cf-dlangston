@@ -4,8 +4,8 @@ Shirt style:
   defs:
     defs:
     addDef: | 
-      <pattern id="shirt-background" patternUnits="userSpaceOnUse" viewBox="0 0 400 225" y="50" width="700" height="393.75">
-        <image href="{{embed files.solo}}" preserveAspectRatio="meet" width="400" height="225"/>
+      <pattern id="shirt-background" patternUnits="userSpaceOnUse" viewBox="0 0 450 253.125" y="0" width="910" height="512">
+        <image href="{{embed files.dots}}" preserveAspectRatio="meet" width="450" height="253.125"/>
       </pattern>
 
 Shirt:
@@ -127,7 +127,7 @@ Forearm Right:
         367.00,421.75 385.00,412.75 385.00,412.75
         385.00,412.75 428.00,391.75 428.00,391.75
         439.73,385.89 449.01,380.27 462.00,377.46 Z
-    fill: {{shirt}}
+    fill: url(#shirt-background)
     addClass: forearm-wave
     width: 230
     height: 140
