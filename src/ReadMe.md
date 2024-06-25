@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.typescriptlang.org/"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=flat-square"></a>
   <a href="https://github.com/cf-dlangston/cf-dlangston/actions/workflows/build.yml"><img alt="GitHub Workflow CI/CD" src="https://img.shields.io/github/actions/workflow/status/cf-dlangston/cf-dlangston/build.yml?label=CI%2FCD&style=flat-square"></a>
-  <a href="https://github.com/cf-dlangston/cf-dlangston/blob/master/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/cf-dlangston/cf-dlangston?style=flat-square&label=License"></a>
   <a href="https://api.github.com/repos/cf-dlangston/cf-dlangston"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/cf-dlangston/cf-dlangston?label=Repo%20Size&style=flat-square"></a>
 </p>
 
@@ -254,9 +253,6 @@ Here are some additional resources which are used:
     <td><a href="https://github.com/svg/svgo">SVGO</a> - Used to optimize SVGs</td>
   </tr>
 </table>
-
-### License 📜
-This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [`LICENSE`](https://github.com/cf-dlangston/cf-dlangston/blob/main/LICENSE) file for details.
 
 <h2 id="footer"></h2>
 <sub>
