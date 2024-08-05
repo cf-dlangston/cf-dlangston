@@ -62,7 +62,7 @@ export class GitHubStatsFetcher {
             const query = `
                 query($login: String!, $ownerAffiliations: [RepositoryAffiliation], $first: Int, $after: String) {
                     user(login: $login) {
-                        repositories(ownerAffiliations: $ownerAffiliations, privacy: PUBLIC, first: $first, after: $after) {
+                        repositories(ownerAffiliations: $ownerAffiliations, first: $first, after: $after) {
                             totalCount
                             pageInfo {
                                 hasNextPage
@@ -147,7 +147,7 @@ export class GitHubStatsFetcher {
             const query = `
                 query($login: String!, $first: Int, $after: String) {
                     user(login: $login) {
-                        repositories(first: $first, privacy: PUBLIC, after: $after) {
+                        repositories(first: $first, after: $after) {
                             pageInfo {
                                 hasNextPage
                                 endCursor
@@ -213,7 +213,7 @@ export class GitHubStatsFetcher {
             const query = `
                 query($login: String!, $first: Int, $after: String) {
                     user(login: $login) {
-                        repositories(first: $first, privacy: PUBLIC, after: $after) {
+                        repositories(first: $first, after: $after) {
                             pageInfo {
                                 hasNextPage
                                 endCursor
