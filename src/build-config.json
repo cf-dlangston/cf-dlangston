@@ -35,8 +35,8 @@
       "speechBubbleStrokeLight": "white",
       "speechBubbleDark": "rgba(34, 39, 46, 0.85)",
       "speechBubbleStrokeDark": "black",
-      "text": "#9f00c5",
-      "accessibleTitle": "Hello World",
+      "text": "#6B52A2",
+      "accessibleTitle": "Cloudforce!",
       "accessibleDesc": "Animated cartoon image of Dylan Langston waving hello."
     }
   },
