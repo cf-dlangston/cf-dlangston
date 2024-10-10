@@ -28,6 +28,7 @@ jobs:
   update-readme:
     name: "Build ReadMe and Commit"
     runs-on: ubuntu-latest
+    needs: read-playwright-version
     env:
       HOME: /root
     container:
