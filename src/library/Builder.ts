@@ -12,7 +12,7 @@ export const cwd = process.cwd();
 const templatesFilePath = path.join(cwd, 'build-config.json');
 export function outDir(...args: string[]) {
     return path.join(cwd, 'out', ...args);;
-} 
+}
 export function distDir(...args: string[]) {
     return path.join(cwd, 'dist', ...args)
 }
@@ -89,7 +89,9 @@ export async function build(templates: Template[], version: string, dateTime: Da
     }
 
     if (!fs.existsSync(outDir(outputFolder))) {
-        fsPromises.mkdir(outDir(outputFolder));
+        fsPromises.mkdir(outDir(outputFolder), {
+            recursive: true
+        });
     }
 
     const originalTemplates = JSON.parse(JSON.stringify(templates));
