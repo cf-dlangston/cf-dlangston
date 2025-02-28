@@ -18,6 +18,9 @@ export default defineConfig({
   use: {
     baseURL: 'http://localhost:8080',
     trace: 'on-first-retry',
+    contextOptions: {
+      reducedMotion: 'reduce'
+    }
   },
   projects: [
     {
