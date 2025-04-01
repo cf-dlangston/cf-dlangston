@@ -1,20 +1,20 @@
 <!-- 
-Version 3.0.220
-Built Sun Mar 30 2025 05:16:49 GMT+0000 (Coordinated Universal Time)
+Version 3.0.221
+Built Tue Apr 01 2025 05:23:12 GMT+0000 (Coordinated Universal Time)
 -->
 
 <h1 align="center">
   <a href="https://github.com/dylanlangston/dylanlangston/tree/master/src" title="Click to View Source">
     <picture width="100%" alt="Dylan">
-      <source media="(prefers-color-scheme: dark)" srcset="dylan-dark.svg?version=3.0.220">
-      <img src="dylan-light.svg?version=3.0.220" alt="Dylan">
+      <source media="(prefers-color-scheme: dark)" srcset="dylan-dark.svg?version=3.0.221">
+      <img src="dylan-light.svg?version=3.0.221" alt="Dylan">
     </picture>
   </a>
 </h1>
 
 <div align="center">
   <picture width="100%" alt="Profile Info and Stats">
-    <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg?version=3.0.220">
-    <img src="stats-light.svg?version=3.0.220" alt="Profile Info and Stats">
+    <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg?version=3.0.221">
+    <img src="stats-light.svg?version=3.0.221" alt="Profile Info and Stats">
   </picture>
 </div>
