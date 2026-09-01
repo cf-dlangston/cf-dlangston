@@ -50,7 +50,7 @@
     "@types/svgdom": "^0.1.2",
     "@types/ws": "^8.18.1",
     "esrun": "^3.2.26",
-    "jest": "^30.4.2",
+    "jest": "^30.5.0",
     "postcss-cli": "^11.0.1",
     "ts-jest": "^29.4.12",
     "typescript": "^7.0.2",
